@@ -1,9 +1,11 @@
+import A23S from "./pages/A23S";
 import Blogpage from "./pages/Blogpage";
 
 export default function App() {
   return (
     <>
-      <Blogpage/>
+      {/* <Blogpage/> */}
+      <A23S/>
     </>
   )
 }
