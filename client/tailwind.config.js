@@ -214,11 +214,11 @@ export default {
 			'BuyNowSquareBG': "url('/smartphone/S24/ButtonBackground.png')",
 			'dualDTSSpeaker': "url('/smartphone/S24/dualDTSSpeaker.png')",
 			'card1': "url('../src/assets/card1.png')",
-			'card2bg': "url('../src/assets/card2/card2_bg.png')",
-			'card3bg': "url('../src/assets/card3/card3_bg.png')",
-			'card4bg': "url('../src/assets/card4_bg.png')",
-			'card5bg': "url('../src/assets/card5_bg.png')",
-			'card6bg': "url('../src/assets/card6/card6_bg.jpeg')",
+			'card2bg': "url('../src/assets/card2/card2bg.png')",
+			'card3bg': "url('../src/assets/card3/card3bg.png')",
+			'card4bg': "url('../src/assets/card4/card4bg.png')",
+			'card5bg': "url('../src/assets/card5/card5_bg.png')",
+			'card6bg': "url('../src/assets/card6/card6bg.png')",
 			
 
 		},
