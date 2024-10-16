@@ -100,7 +100,7 @@ import cardleft from "../../assets/card7/card7bg.png";
 
 export default function FeatureCards() {
   return (
-    <div className=" flex items-center justify-center gap-6">
+    <div className=" flex items-center justify-center gap-6 w-[144px] h-[904px]">
 
 
         <div className="grid md:grid-cols-2 gap-6 p-6">

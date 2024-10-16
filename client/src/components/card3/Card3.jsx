@@ -6,7 +6,7 @@ import brightness from "../../assets/brightness.svg"
 
 const EnhancedBattery = () => {
   return (
-    <section className="h-[521px] w-[456px] top-[110px] left-[680px] absolute">
+    <section className="h-[521px] w-[456px] top-[110px] left-[720px] absolute">
       <div className="absolute inset-0 flex items-center">
         <div className="ml-auto mr-16 max-w-[600px] gap-8 flex flex-col">
           <div>
