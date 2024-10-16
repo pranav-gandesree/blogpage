@@ -51,11 +51,10 @@ const TechPartnerCard = () => {
         
         {/* Main content container */}
         <div className="relative h-full flex items-center justify-between px-8">
-          {/* Left side with image */}
           <div className="relative w-3/5 h-full">
           </div>
 
-          {/* Right side with text content */}
+     
           <div className="w-2/5 flex flex-col space-y-8 pl-8 relative top-36">
             <h2 className="text-desktop/h2 ">
               Your Perfect Tech Partner: A23S
