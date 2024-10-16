@@ -219,7 +219,8 @@ export default {
 			'card4bg': "url('../src/assets/card4/card4bg.png')",
 			'card5bg': "url('../src/assets/card5/card5_bg.png')",
 			'card6bg': "url('../src/assets/card6/card6bg.png')",
-			
+			'card7bg': "url('../src/assets/card7/card7bg.png')",
+			'custom-gradient': 'linear-gradient(167.69deg, rgba(43, 197, 226, 0) 8.96%, rgba(43, 197, 226, 0.05) 64.02%, #237F9C 100%)',
 
 		},
 		borderImage: {
