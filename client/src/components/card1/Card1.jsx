@@ -75,7 +75,7 @@ const TechPartnerCard = () => {
               </div>
 
               <div>
-                <p className="text-lg font-medium">Smart Unlock</p>
+                <p className="text-mobile/h3 font-markot font-medium">Smart Unlock</p>
               </div>
             </div>
           </div>
