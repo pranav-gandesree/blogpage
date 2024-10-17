@@ -1,26 +1,119 @@
+// import img1 from "../../assets/Background/card1.webp";
+// import img2 from "../../assets/Background/Card 1 Mobile.webp";
+// import React from 'react';
+
+// const TechPartnerCard = () => {
+//   return (
+//     <div 
+//       className="relative bg-[#EFF1F4] w-full h-auto lg:w-[1248px] lg:h-[739px] rounded-[56px] border border-black/20 border-r-0 border-b-0 opacity-100 p-4 mx-auto overflow-hidden"
+//     >
+//       {/* Background Image for Web */}
+//       <div className="absolute inset-0 hidden lg:block">
+//         <img
+//           src={img1}
+//           alt="A23S Phone"
+//           className="object-cover w-full h-full lg:w-[1248px] lg:h-[739px]"
+//         />
+//       </div>
+
+//       {/* Background Image for Mobile */}
+//       <div className="absolute inset-0 block lg:hidden">
+//         <img
+//           src={img2}
+//           alt="A23S Phone"
+//           className="object-cover w-full h-full"
+//         />
+//       </div>
+
+//       {/* Content */}
+//       <div className="relative z-10 flex flex-col gap-9 lg:top-[295px] lg:left-[836px] h-[131px] lg:h-[423px] w-[304px] lg:w-[412px]">
+//         <h2 className="lg:text-desktop/h2 text-lg font-medium font-markot text-[#232323] mb-2">Your Perfect Tech Partner: A23S</h2>
+
+//         {/* Features */}
+//         <div className="flex flex-col justify-between mb-4 lg:h-[234px] lg:w-[294px] w-[1279px] h-[148px]">
+//           <div className="flex gap-2 flex-col">
+//             <p className="text-mobile/h3 font-medium">12.7 cm (5-inch)</p>
+//             <p className="text-desktop/body/1 text-gray-600">Bright Display</p>
+//             <div className="w-[289px] h-0.5 bg-black mt-1 md:mt-2"></div>
+//           </div>
+
+//           <div>
+//             <p className="text-mobile/h3 font-medium">3020 mAh</p>
+//             <p className="text-desktop/body/1 text-dark/card/bg">Battery</p>
+//             <div className="w-[289px] h-0.5 bg-black mt-1 md:mt-2"></div>
+//           </div>
+
+//           <div>
+//             <p className="text-mobile/h3 font-markot font-medium">Smart Unlock</p>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default TechPartnerCard;
 
 
 
+
+
+
+
+
+
+
+import img1 from "../../assets/Background/card1.webp";
+import img2 from "../../assets/Background/Card 1 Mobile.webp"
 import React from 'react';
 
 const TechPartnerCard = () => {
   return (
-    <div className="w-[1248px] mx-auto">
-      <div className="relative w-[1248px] h-[700px]  rounded-3xl overflow-hidden bg-card1 bg-cover bg-center border border-opacity-20 border-[#000000]">
+    <div 
+      className="
+        relative 
+        bg-[#EFF1F4] 
+       w-[1201px] h-[1744px]
+        lg:w-[1248px] lg:h-[739px] 
+        rounded-[56px] 
+        border border-black/20 border-r-0 border-b-0 
+        opacity-100 p-4 mx-auto overflow-hidden"
+    >
+      {/* Background Image */}
+      {/* <div className="absolute inset-0">
+        <img
+          src={img1}
+          alt="A23S Phone"
+          className="object-cover w-[1201px] h-[1744px] 
+        lg:w-[1248px] lg:h-[739px] "
+        />
+      </div> */}
 
-        
-        <div className="relative h-full flex items-center justify-between px-8">
-          <div className="relative w-3/5 h-full">
-          </div>
 
-     
-          <div className="w-2/5 flex flex-col space-y-8 pl-16 relative top-36">
-            <h2 className="text-desktop/h2 ">
-              Your Perfect Tech Partner: A23S
-            </h2>
+<div className="absolute inset-0 hidden lg:block">
+        <img
+          src={img1}
+          alt="A23S Phone"
+          className="object-cover w-full h-full lg:w-[1248px] lg:h-[739px]"
+        />
+      </div>
 
-            <div className="space-y-6">
-              <div>
+      {/* Background Image for Mobile */}
+      <div className="absolute inset-0 block lg:hidden">
+        <img
+          src={img2}
+          alt="A23S Phone"
+          className="object-cover w-full h-full"
+        />
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 flex flex-col gap-9 lg:top-[295px] lg:left-[836px] h-[131px] lg:h-[423px] w-[304px] lg:w-[412px]">
+        <h2 className="lg:text-desktop/h2 text-lg font-medium font-markot text-[#232323] mb-2">Your Perfect Tech Partner: A23S</h2>
+
+        {/* Features */}
+        <div className="flex flex-col justify-between mb-4 lg:h-[234px] lg:w-[294px] w-[1279px] h-[148px]">
+              <div className="flex gap-2 flex-col">
                 <p className="text-mobile/h3 font-medium">12.7 cm (5-inch)</p>
                 <p className="text-desktop/body/1 text-gray-600">Bright Display</p>
                 <div className="w-[289px] h-0.5 bg-black mt-1 md:mt-2"></div>
@@ -35,8 +128,6 @@ const TechPartnerCard = () => {
               <div>
                 <p className="text-mobile/h3 font-markot font-medium">Smart Unlock</p>
               </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -54,54 +145,3 @@ export default TechPartnerCard;
 
 
 
-
-
-
-
-
-
-// import React from 'react';
-
-// const TechPartnerCard = () => {
-//   return (
-//     <div className="mx-auto w-[328px] h-[444px] lg:w-[1248px]">
-//       <div className="relative w-[328px] h-[372px] top-[72px] lg:top-0 lg:w-[1248px] lg:h-[700px] rounded-3xl overflow-hidden bg-card1 bg-cover bg-center border border-opacity-20 border-[#000000]">
-        
-//         {/* Main content container */}
-//         <div className="relative h-full flex flex-col lg:flex-row items-center justify-between p-4 lg:px-8">
-          
-//           {/* Left-side image or empty space */}
-//           <div className="relative w-full lg:w-3/5 h-full">
-//           </div>
-
-//           {/* Text content */}
-//           <div className="w-full lg:w-2/5 flex flex-col space-y-4 lg:space-y-8 lg:pl-16 relative lg:top-36">
-//             <h2 className="text-xl lg:text-desktop/h2 font-bold">
-//               Your Perfect Tech Partner: A23S
-//             </h2>
-
-//             <div className="space-y-4 lg:space-y-6">
-//               <div>
-//                 <p className="text-base lg:text-mobile/h3 font-medium">12.7 cm (5-inch)</p>
-//                 <p className="text-sm lg:text-desktop/body/1 text-gray-600">Bright Display</p>
-//                 <div className="w-full lg:w-[289px] h-0.5 bg-black mt-1 lg:mt-2"></div>
-//               </div>
-
-//               <div>
-//                 <p className="text-base lg:text-mobile/h3 font-medium">3020 mAh</p>
-//                 <p className="text-sm lg:text-desktop/body/1 text-dark/card/bg">Battery</p>
-//                 <div className="w-full lg:w-[289px] h-0.5 bg-black mt-1 lg:mt-2"></div>
-//               </div>
-
-//               <div>
-//                 <p className="text-base lg:text-mobile/h3 font-markot font-medium">Smart Unlock</p>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default TechPartnerCard;

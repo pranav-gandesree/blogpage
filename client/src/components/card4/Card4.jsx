@@ -1,57 +1,20 @@
-// import React from 'react';
 
-// const MultiLanguageSupport = () => {
-//   return (
-//     <section className="h-[739px] w-[1248px]">
-//       <div className="absolute inset-0  flex items-center">
-
-//         <div className="ml-16 max-w-[400px]">
-//           <h2 className="text-desktop/h2 mb-4">Multi-Language Support</h2>
-//           <p className="text-desktop/body/1 mb-6">Use your device in any language you prefer</p>
-//           <p className="text-desktop/body/2/regular text-grey/grey/4">
-//             15 Languages Supported: English, Hindi, Gujarati, Tamil, Telugu, Punjabi, Assamese, Bengali, Kannada, Malayalam, Kashmiri, Urdu, Nepali, Marathi, Oriya.
-//           </p>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-
-
-// export default MultiLanguageSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-import React from 'react';
-
-const MultiLanguageSupport = () => {
+const Card4 = () => {
   return (
-    <section className="w-[400px]">
-      <div className="flex items-center">
+    <section className="relative w-full h-1200px lg:h-[730px]"> 
+    <div className="lg:bg-card4lgbg bg-card4bg h-[1200px] lg:h-[729px] m w-full bg-cover bg-center rounded-3xl border border-opacity-20 border-[#000000]"></div>
+    
+    <div className="absolute lg:top-[55px] top-[50px] lg:left-[55px] left-[155px] w-[1000px] h-auto flex gap-4 flex-col ">
+      <h2 className="text-[#232323] lg:text-desktop/h3 text-[111px] leading-[48px] font-markot  font-medium  mb-2">
+        Special OS Features
+      </h2>
+      <h6 className="lg:text-desktop/body/large font-normal w-[1160] leading-[60px] text-[48px] font-markot lg:w-[360px] h-auto text-[#6F7384]">
+        Enhanced WhatsApp features like peek mode, call recording, and more!
+      </h6>
+    </div>
+  </section>
+  
+  )
+}
 
-        <div className="text-left relative ">
-          <h2 className="text-desktop/h2 mb-4">Multi-Language Support</h2>
-          <p className="text-desktop/body/1 mb-6">
-            Use your device in any language you prefer
-          </p>
-          <p className="text-desktop/body/2/regular text-grey/grey/4">
-            15 Languages Supported: English, Hindi, Gujarati, Tamil, Telugu, Punjabi, Assamese, Bengali, Kannada, Malayalam, Kashmiri, Urdu, Nepali, Marathi, Oriya.
-          </p>
-        </div>
-      </div>
-    </section>
-  );
-};
-
-export default MultiLanguageSupport;
+export default Card4

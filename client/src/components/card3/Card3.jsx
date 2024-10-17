@@ -6,9 +6,11 @@ import brightness from "../../assets/brightness.svg"
 
 const EnhancedBattery = () => {
   return (
-    <section className="h-[521px] w-[456px] top-[110px] left-[720px] absolute">
+    <section className= "relative lg:h-[739px] lg:w-[1248px] h-[1900px]">
+       <div className=" relative lg:bg-card3lgbg bg-card3bg lg:h-[739px] h-[1900px] w-full  bg-cover bg-center rounded-3xl border border-opacity-20 border-[#000000] "></div>
+
       <div className="absolute inset-0 flex items-center">
-        <div className="ml-auto mr-16 max-w-[600px] gap-8 flex flex-col">
+        <div className="ml-[700px] lg:w-[410px] gap-8 flex flex-col">
           <div>
           <h2 className="text-desktop/h2 mb-2">Enhanced Battery with Smart Power Master</h2>
           <p className="text-desktop/h4 text-[#6F7384] mb-8">3020 mAh Battery</p>
