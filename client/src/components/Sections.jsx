@@ -4,9 +4,12 @@ import WorkFastStoreMore from './card2/Card2'
 import EnhancedBattery from './card3/Card3'
 import Card4 from './card4/Card4'
 import MultiLanguageSupportSection from './card5/Card5'
+import Card6 from './card6/Card6'
+import FeatureCards from './card7/card7'
 
 const Sections = () => {
   return (
+    <>
     <div className='lg:h-[3791px] lg:w-[1380px] w-[1280px] content m-10 rounded-3xl border border-black p-4 flex flex-col gap-4'>
       <TechPartnerCard/>
       <WorkFastStoreMore/>
@@ -14,6 +17,9 @@ const Sections = () => {
       <Card4/>
       <MultiLanguageSupportSection/>
     </div>
+    <Card6/>
+    <FeatureCards/>
+    </>
   )
 }
 

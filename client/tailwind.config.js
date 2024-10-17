@@ -223,7 +223,8 @@ export default {
 			'card4bg': "url('../src/assets/Background/whatsapp - mobile.webp')",
 			'card5lgbg': "url('../src/assets/Background/multi lang.webp')",
 			'card5bg': "url('../src/assets/Background/Card 5 Mobile.webp')",
-			'card6bg': "url('../src/assets/card6/card6bg.png')",
+			'card6lgbg': "url('../src/assets/Background/A23s-moon-bg.webp')",
+			'card6bg': "url('../src/assets/Background/A23s-moon-bg-mobile.webp')",
 			'card7bg': "url('../src/assets/card7/card7bg.png')",
 			'custom-gradient': 'linear-gradient(167.69deg, rgba(43, 197, 226, 0) 8.96%, rgba(43, 197, 226, 0.05) 64.02%, #237F9C 100%)',
 

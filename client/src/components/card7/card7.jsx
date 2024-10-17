@@ -1,72 +1,70 @@
-// import React from 'react';
+// // import React from 'react';
 
-// const FeatureCards = () => {
-//   return (
-//     <div className="w-full max-w-7xl mx-auto p-6">
-//       <div className="grid grid-cols-2 gap-8">
-//         {/* Left Column - Face Unlock Card */}
-//         <div className="bg-custom-gradient rounded-3xl p-8 shadow-lg h-[600px]">
-//           <h2 className="text-2xl font-semibold mb-8">
-//             Effortless Security: 
-//             <br />
-//             Smart Face Unlock
-//           </h2>
-//           <div className="relative3xl border border-black p-6 flex justify-center h-[calc(100%-100px)]">
-//             <img 
-//               src="/api/placeholder/280/500" 
-//               alt="Phone with face unlock interface"
-//               className="w-64 object-contain"
-//             />
-//           </div>
-//         </div>
+// // const FeatureCards = () => {
+// //   return (
+// //     <div className="w-full max-w-7xl mx-auto p-6">
+// //       <div className="grid grid-cols-2 gap-8">
+// //         {/* Left Column - Face Unlock Card */}
+// //         <div className="bg-custom-gradient rounded-3xl p-8 shadow-lg h-[600px]">
+// //           <h2 className="text-2xl font-semibold mb-8">
+// //             Effortless Security: 
+// //             <br />
+// //             Smart Face Unlock
+// //           </h2>
+// //           <div className="relative3xl border border-black p-6 flex justify-center h-[calc(100%-100px)]">
+// //             <img 
+// //               src="/api/placeholder/280/500" 
+// //               alt="Phone with face unlock interface"
+// //               className="w-64 object-contain"
+// //             />
+// //           </div>
+// //         </div>
 
-//         {/* Right Column - Stacked Cards */}
-//         <div className="grid grid-rows-2 gap-8">
-//           {/* Battery Card */}
-//           <div className="bg-white rounded-3xl p-8 shadow-lg">
-//             <h2 className="text-2xl font-semibold mb-6">
-//               Enjoy Efficient Battery Use All Day
-//             </h2>
-//             <div className="relative bg-gradient-to-r from-sky-50 to-sky-100 rounded-3xl p-6">
-//               <div className="flex flex-col items-center justify-center">
-//                 <div className="text-[80px] font-bold text-sky-500 leading-none">
-//                   3020
-//                 </div>
-//                 <div className="text-xl text-sky-600 mt-2">mAh Battery</div>
-//                 <div className="text-sm text-sky-400 mt-4">
-//                   Enabled with Smart Power Master
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
+// //         {/* Right Column - Stacked Cards */}
+// //         <div className="grid grid-rows-2 gap-8">
+// //           {/* Battery Card */}
+// //           <div className="bg-white rounded-3xl p-8 shadow-lg">
+// //             <h2 className="text-2xl font-semibold mb-6">
+// //               Enjoy Efficient Battery Use All Day
+// //             </h2>
+// //             <div className="relative bg-gradient-to-r from-sky-50 to-sky-100 rounded-3xl p-6">
+// //               <div className="flex flex-col items-center justify-center">
+// //                 <div className="text-[80px] font-bold text-sky-500 leading-none">
+// //                   3020
+// //                 </div>
+// //                 <div className="text-xl text-sky-600 mt-2">mAh Battery</div>
+// //                 <div className="text-sm text-sky-400 mt-4">
+// //                   Enabled with Smart Power Master
+// //                 </div>
+// //               </div>
+// //             </div>
+// //           </div>
 
-//           {/* RAM Card */}
-//           <div className="bg-white rounded-3xl p-8 shadow-lg">
-//             <h2 className="text-2xl font-semibold mb-6">
-//               4GB* (2GB+2GB*) RAM :
-//               <br />
-//               Enhanced Productivity
-//             </h2>
-//             <div className="relative bg-gradient-to-b from-sky-100 to-white rounded-3xl p-6">
-//               <div className="flex flex-col items-center">
-//                 <img 
-//                   src="/api/placeholder/400/140" 
-//                   alt="Phone showing RAM capacity"
-//                   className="w-full object-contain mb-4"
-//                 />
-//                 <p className="text-xs text-gray-500">*Memory Fusion Technology</p>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
+// //           {/* RAM Card */}
+// //           <div className="bg-white rounded-3xl p-8 shadow-lg">
+// //             <h2 className="text-2xl font-semibold mb-6">
+// //               4GB* (2GB+2GB*) RAM :
+// //               <br />
+// //               Enhanced Productivity
+// //             </h2>
+// //             <div className="relative bg-gradient-to-b from-sky-100 to-white rounded-3xl p-6">
+// //               <div className="flex flex-col items-center">
+// //                 <img 
+// //                   src="/api/placeholder/400/140" 
+// //                   alt="Phone showing RAM capacity"
+// //                   className="w-full object-contain mb-4"
+// //                 />
+// //                 <p className="text-xs text-gray-500">*Memory Fusion Technology</p>
+// //               </div>
+// //             </div>
+// //           </div>
+// //         </div>
+// //       </div>
+// //     </div>
+// //   );
+// // };
 
-// export default FeatureCards;
-
-
+// // export default FeatureCards;
 
 
 
@@ -95,7 +93,9 @@
 
 
 
-import cardleft from "../../assets/card7/card7bg.png";
+
+
+import cardleft from "../../assets/Background/face unlock grid BG.webp";
 
 
 export default function FeatureCards() {
